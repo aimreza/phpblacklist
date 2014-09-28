@@ -1,0 +1,75 @@
+body{
+margin:0;
+padding:0;
+line-height: 1.5em;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+#maincontainer{
+width: 1350px; /*Width of main container*/
+margin: 0 auto; /*Center container on page*/
+}
+
+#topsection{
+background: #EAEAEA;
+height: 90px; /*Height of top section*/
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin-left: 200px; /*Set left margin to LeftColumnWidth*/
+}
+
+#leftcolumn{
+float: left;
+width: 200px; /*Width of left column*/
+margin-left: -1350px; /*Set left margin to -(MainContainerWidth)*/
+background: #C8FC98;
+height:100px;
+}
+
+#footer{
+clear: left;
+width: 100%;
+background: black;
+color: #FFF;
+text-align: center;
+padding: 4px 0;
+}
+
+#footer a{
+color: #FFFF80;
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+.lbl {width: 25%; font-weight:bloder}
+.cln{width: 5%; font-weight:bold; }
+
+.btn {
+	width:100px;
+	text-align:center;
+	font-weight:bold;
+	height:25px;
+}
+.btn:hover{
+ opacity: 0.8;
+ cursor: pointer;
+}
+.comment{
+text-align:justify; 
+margin:5px 0
+}
